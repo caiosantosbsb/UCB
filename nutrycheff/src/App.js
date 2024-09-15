@@ -1,19 +1,16 @@
 import './App.css';
 import './pages/TelaCadastro'
-import NavBar from './components/NavBar';
-import Corpo from './pages/TelaCadastro';
+import MenuLateral from './components/MenuLateral';
+
 
 function App() {
   return (
     <div className="App">
       <div>
-      <NavBar/>
+      <MenuLateral/>
 
       </div>
 
-      <div>
-        <Corpo/>
-      </div>
     </div>
   );
 }
