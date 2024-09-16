@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 
+
 const Navbar = () => {
+    const  goCadastro = () =>{
+        window.location.href = '../../pages/TelaCadastro/'
+    }
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -34,13 +38,14 @@ const Navbar = () => {
 
                 <div className='search-container'>
                   <input type="text" placeholder="Pesquisar..." className="search-bar" />
-                    <span class="search-icon">🔍</span>
+                    <span className="search-icon">🔍</span>
                 </div>
 
             <div className="navbar-right">
-                <button className="icon-button-1" href='./'>
+            
+                <a className="icon-button-1" href='/register'>
                    Registrar 
-                </button>
+                </a>
                 <button className="icon-button-2">
                     Login
                 </button>

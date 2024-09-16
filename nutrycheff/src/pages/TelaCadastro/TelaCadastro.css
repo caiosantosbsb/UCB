@@ -1,8 +1,7 @@
 .cadastro-principal {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(180deg, #202057 0%, rgba(32, 32, 87, 0.823941) 99.98%,
-            rgba(32, 32, 87, 0.8) 99.99%, rgba(32, 32, 87, 0) 100%);
+    background-color: aqua;
 
 }
 

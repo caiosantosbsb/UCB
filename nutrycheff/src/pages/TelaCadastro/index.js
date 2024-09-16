@@ -1,12 +1,13 @@
 import './TelaCadastro.css'
 
-const Corpo = () => {
+const TelaCadastro = () => {
     return(
     <div className='cadastro-principal'>
         <div className='caixa_cadastro'>
+           <h1>foi</h1>
         </div>
     </div>
     )
 }
 
-export default Corpo
+export default TelaCadastro
