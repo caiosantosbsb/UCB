@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
 
             <div className="navbar-right">
-                <button className="icon-button-1">
+                <button className="icon-button-1" href='./'>
                    Registrar 
                 </button>
                 <button className="icon-button-2">

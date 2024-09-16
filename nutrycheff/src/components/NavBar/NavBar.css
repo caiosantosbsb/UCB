@@ -176,11 +176,12 @@
 }
 
 .icon-button-2 :hover {
-    background-color: #de1111;
+    background-color: #ff2d2d;
 }
 
 .icon-button-3 svg {
     width: 24px;
     height: 24px;
+    color: green;
     
 }
