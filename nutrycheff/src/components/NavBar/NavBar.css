@@ -145,6 +145,7 @@
     padding: 10px;
     transition: background-color 0.3s;
     border-radius: 7px;
+    text-decoration: none;
 
 }
 .icon-button-2 {
@@ -155,8 +156,9 @@
     padding: 10px;
     transition: background-color 0.3s;
     border-radius: 7px;
-    width: 87px;
-    height: 38px;
+    width: 40px;
+    height: 23px;
+    text-decoration: none;
 
 }
 .icon-button-3 {
@@ -170,8 +172,9 @@
     padding: 10px;
     transition: background-color 0.3s;
     border-radius: 7px;
-    width: 50px;
-    height: 38px;
+    width: 40px;
+    height: 23px;
+    text-decoration: none;
 
 }
 

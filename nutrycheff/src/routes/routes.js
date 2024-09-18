@@ -4,6 +4,7 @@ import { Route, Routes} from "react-router-dom";
 import Navbar from "../components/NavBar";
 import TelaCadastro from "../pages/TelaCadastro";
 import Home from "../pages/Home"
+import TelaLogin from "../pages/TelaLogin";
 
 
 const RoutesPath = () => {
@@ -12,7 +13,9 @@ const RoutesPath = () => {
            
          
            <Route element = { <TelaCadastro/> }  path="/register" />
+           < Route element = {<TelaLogin/>} path="/login"/>
            <Route element = { <Home/> }  path="/" />
+
        </Routes>
    )
 }
