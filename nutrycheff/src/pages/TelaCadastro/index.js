@@ -31,9 +31,16 @@ const TelaCadastro = () => {
     
       return (
         <div>
-          <header><Navbar /></header>
+          <header>
+            <Navbar />
+          </header>
+
+          <div className="page-heading">
+            <h1>Mude seus Hábitos!</h1>
+            <h2>Faça seu registro!</h2>
+          </div>
+          
           <div className="form-container">
-            <h2>Mude seus Hábitos! Faça seu registro!</h2>
             <form onSubmit={handleSubmit}>
               <div className="form-row">
                 <input

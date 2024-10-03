@@ -1,16 +1,28 @@
 .form-container {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+    width: 500px;
+    margin: 120px auto;
+    padding: 50px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
+    
+  .page-heading {
+    text-align: center; /* Centers the text */
+    margin: 120px 0;
+  }
   
-  h2 {
-    color: #ff5722; /* Orange */
-    margin-bottom: 20px;
+  .page-heading h1 {
+    color: #e53935; /* Red color for the first heading */
+    font-size: 30px; /* Adjust the size as needed */
+    font-weight: bold;
+  }
+  
+  .page-heading h2 {
+    color: #000000; /* Black color for the second heading */
+    font-size: 30px; /* Adjust the size as needed */
+    font-weight: bold;
   }
   
   .form-row {
