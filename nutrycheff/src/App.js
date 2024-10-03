@@ -11,7 +11,6 @@ import RoutesPath from './routes/routes';
   return (
     <BrowserRouter>
       <RoutesPath/>
-      
     </BrowserRouter>
   );
   }

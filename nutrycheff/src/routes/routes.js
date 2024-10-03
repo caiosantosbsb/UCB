@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from "../components/NavBar";
 import TelaCadastro from "../pages/TelaCadastro";
