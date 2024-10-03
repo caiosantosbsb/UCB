@@ -7,8 +7,6 @@ import Routes from './routes/routes';
 import { BrowserRouter } from 'react-router-dom';
 import RoutesPath from './routes/routes';
 
-
-
   function App() {
   return (
     <BrowserRouter>
