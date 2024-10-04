@@ -1,13 +1,11 @@
 import React from 'react';
 import './Background.css'; // Import your CSS
 
-function App() {
+function Background() {
   return (
-    <div className="App">
+    <div className="Background">
       {/* First Landing Section */}
       <section className="first-landing">
-        <h1>Mude seus Hábitos!</h1>
-        <p>Faça seu registro!</p>
       </section>
 
       {/* Main content */}
@@ -17,10 +15,9 @@ function App() {
 
       {/* Footer Section */}
       <footer className="footer">
-        <p>Sua refeição tão única quanto você!</p>
       </footer>
     </div>
   );
 }
 
-export default App;
+export default Background;

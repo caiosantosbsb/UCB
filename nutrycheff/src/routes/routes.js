@@ -9,12 +9,11 @@ import TelaLogin from "../pages/TelaLogin";
 
 const RoutesPath = () => {
    return(
-       <Routes>
-           <Route element = { <TelaCadastro/> }  path="/register" />
-           <Route element = {<TelaLogin/>} path="/login"/>
-           <Route element = { <Home/> }  path="/" />
-
-       </Routes>
+    <Routes>
+        <Route element = { <TelaCadastro/> }  path="/register" />
+        <Route element = {<TelaLogin/>} path="/login"/>
+        <Route element = { <Home/> }  path="/" />
+    </Routes>
    )
 }
 
